@@ -3,9 +3,11 @@ function createElem(element, value) {
     txt.innerHTML = value;
     $("body").append(txt)
 }
-function createDetailedElement(element, className, id, value) {
-    let txt = document.createElement((element + "." + className + "#" + id), value)
+function createDetailedElement(element, classNamed, idd, value) {
+    let txt = document.createElement(elemen)
     txt.innerHTML = value;
+    txt.className = classNamed;
+    txt.id = idd;
 }
 function editElement(elementSelector, value) {
     $(elementSelector).html = value;
