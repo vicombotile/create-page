@@ -1,10 +1,10 @@
 function createElem(element, value) {
     let txt = document.createElement(element)
     txt.innerHTML = value;
-    $("body").append("txt")
+    $("body").append(txt)
 }
 function createDetailedElement(element, className, id, value) {
-    let txt = document.createElement(element + "." + className + "#" + id)
+    let txt = document.createElement((element + "." + className + "#" + id), value)
     txt.innerHTML = value;
 }
 function editElement(elementSelector, value) {
