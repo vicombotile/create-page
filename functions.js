@@ -4,7 +4,7 @@ function createElem(element, value) {
     $("body").append(txt)
 }
 function createDetailedElement(element, classNamed, idd, value) {
-    let txt = document.createElement(elemen)
+    let txt = document.createElement(element)
     txt.innerHTML = value;
     txt.className = classNamed;
     txt.id = idd;
