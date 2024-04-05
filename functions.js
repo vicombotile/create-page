@@ -7,7 +7,7 @@ function createDetailedElement(element, className, id, value) {
     let txt = document.createElement(element);
     $(element + ":empty").attr('id',id);
     $(element + ":empty").addClass(className);
-    $(element + ":empty").html = value;
+    $(element + ":empty").html(value);
 }
 function editElement(elementSelector, value) {
     $(elementSelector).html = value;
