@@ -3,14 +3,14 @@ function createElem(element, value) {
     txt.innerHTML = value;
     $("body").append(txt)
 }
+function editElement(elementSelector, value) {
+    $(elementSelector).html = value;
+}
 function createDetailedElement(element, className, id, value) {
     let txt = document.createElement(element);
     $(element + ":empty").attr('id',id);
     $(element + ":empty").addClass(className);
-    $(element + ":empty").html(value);
-}
-function editElement(elementSelector, value) {
-    $(elementSelector).html = value;
+    editElement(element + ":empty", value);
 }
 function deleteElement(elementSelector) {
     $(elementSelector).remove();
