@@ -18,3 +18,10 @@ function attributes(elementSelector, attribute, value) {
 function changeCSS(elementSelector, property, value) {
     $(elementSelector).css(property, value);
 }
+
+let paragraph = "p"
+let bigHeader = "h1"
+let smallHeader = "h3"
+let bold = "b"
+let input = "input"
+let image = "img"
