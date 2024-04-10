@@ -36,23 +36,22 @@ These are attributes to use in the attributes() function.
 clicked: The function that will occur when a button is clicked.
 value: The text inside an input.
 source: The source of an image.
-wwwSource: The source of a website on the web.
+wwwSource: The source of a website on the web, use for links.
 width: The width of an element.
 height: The height of an element.
 
 # Images
 
-Image sources to use in image elements. Please enclose in quotes.
+Image sources to use in image elements. Please enclose in quotes, and add '/' in front of them.
 
-apple.png
-rocket.png
-food.png
-person.png
-flag.png
-number.png
-continent.png
-pencil.png
-game.png
+apple.jpg
+rocket.jpg
+soup.jpg
+person.jpg
+flag.jpg
+continent.jpg
+pencils.jpg
+game.jpg
 
 # Warnings
 
@@ -60,4 +59,5 @@ Please do not use the editElement() function to edit an input element, instead u
 
 Also, use quotes to add custom text, like "Hello, World!" or "Header".
 
-Next, do not mismatch attributes & elements, it will cause unexpected things to occur
+Next, do not mismatch attributes & elements, it will cause unexpected things to occur.
+Finally, this in NOT for mobile.
