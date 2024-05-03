@@ -1,4 +1,11 @@
-# Commands
+# Create your own page
+
+This is a website in which you can create your own webpage!
+Send your pages to email:  <ajibawomoyinoluwa6@gmail.com> an they will have a chance to be displayed on Page Projects!
+
+Use the command line (CTRL + SHIFT + I) to use the commands.
+
+## Commands
 
 Please use these commands to edit the page in the console:
 
@@ -10,7 +17,13 @@ deleteElement(elementSelector)
 attributes(elementSelector, attribute, value)  
 changeCSS(elementSelector, property, value)
 
-# Elements
+Scalable Vector Graphics have been added!
+createSVGRoot(width, height)
+createCircle(x-pos, y-pos, radius)
+createRect(x-pos, y-pos, width, height)
+createEllipse(x-pos, y-pos, x-radius, y-radius)
+
+## Elements
 
 Use these elements in the createElem() and createDetailedElem()functions.
 
@@ -25,11 +38,7 @@ link: A link to a website
 
 Please put any custom text in quotes.
 
-# Functions 
-
-Coming soon! ;)
-
-# Attributes
+## Attributes
 
 These are attributes to use in the attributes() function.
 
@@ -40,7 +49,7 @@ wwwSource: The source of a website on the web, use for links.
 width: The width of an element.
 height: The height of an element.
 
-# Images
+## Images
 
 Image sources to use in image elements. Please enclose in quotes, and add '/' in front of them.
 
@@ -53,11 +62,14 @@ continent.jpg
 pencils.jpg
 game.jpg
 
-# Warnings
+## Warnings
 
 Please do not use the editElement() function to edit an input element, instead use the value attribute to change it's value.
 
 Also, use quotes to add custom text, like "Hello, World!" or "Header".
 
 Next, do not mismatch attributes & elements, it will cause unexpected things to occur.
-Finally, this in NOT for mobile.
+
+Finally, this is NOT for mobile.
+
+Happy hacking!  
