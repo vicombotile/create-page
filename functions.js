@@ -52,7 +52,7 @@ const SVG = {
         ypos +
         " r=" +
         radius +
-        " stroke=black stroke-width=6" +
+        " stroke=black stroke-width='6'" +
         "/>"
     );
     $("svg").append(circle);
@@ -67,7 +67,7 @@ const SVG = {
         width +
         " height=" +
         height +
-        " stroke=black stroke-width=6" +
+        " stroke=black stroke-width='6'" +
         "/>"
     );
     $("svg").append(rect);
@@ -82,7 +82,7 @@ const SVG = {
         x_radius +
         " ry=" +
         y_radius +
-        " stroke=black stroke-width=6" +
+        " stroke=black stroke-width='6'" +
         "/>"
     );
     $("svg").append(ellipse);
@@ -92,7 +92,7 @@ const SVG = {
       "<polygon points='" +
         points +
         "'" +
-        " stroke=black stroke-width=6" +
+        " stroke=black stroke-width='6'" +
         " />"
     );
     $("svg").append(polygon);
@@ -113,3 +113,9 @@ const source = "src";
 const wwwSource = "href";
 const width = "width";
 const height = "height";
+
+const Demos = {
+  HelloWorld: "<p>Hello World! 🗺</p> <h1>This is my webpage. </h1>",
+  OnClick: "<button onclick='$(`p`).css(`color`, `lime`)'>Turns the p elements lime</button>"
+}
+      
