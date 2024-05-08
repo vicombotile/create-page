@@ -18,10 +18,11 @@ attributes(elementSelector, attribute, value)
 changeCSS(elementSelector, property, value)
 
 Scalable Vector Graphics have been added!
-createSVGRoot(width, height)
-createCircle(x-pos, y-pos, radius)
-createRect(x-pos, y-pos, width, height)
-createEllipse(x-pos, y-pos, x-radius, y-radius)
+
+SVG.Root(width, height)
+SVG.Circle(x-pos, y-pos, radius)
+SVG.Rect(x-pos, y-pos, width, height)
+SVG.Ellipse(x-pos, y-pos, x-radius, y-radius)
 
 ## Elements
 
