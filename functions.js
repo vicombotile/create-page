@@ -46,11 +46,11 @@ const SVG = {
   },
   Circle: (xpos, ypos, radius) => {
     let circle = $(
-      "<circle x=" +
+      "<circle cx=" +
         xpos +
-        " y=" +
+        " cy=" +
         ypos +
-        " radius=" +
+        " r=" +
         radius +
         " stroke=black stroke-width=6" +
         "/>"
@@ -74,9 +74,9 @@ const SVG = {
   },
   Ellipse: (xpos, ypos, x_radius, y_radius) => {
     let ellipse = $(
-      "<ellipse x=" +
+      "<ellipse cx=" +
         xpos +
-        " y=" +
+        " cy=" +
         ypos +
         " rx=" +
         x_radius +
